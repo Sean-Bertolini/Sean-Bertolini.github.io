@@ -1,11 +1,11 @@
 p {
-	width: 900px;
+	width: 620px;
 	position: absolute;
 	top: 390px;
 	left: 170px;
-	font-family: Courier;
+	font-family: Palatino;
 	font-size: 18px;
-	line-height: 23px;
+	line-height: 26px;
 }
 
 h2{
@@ -14,7 +14,7 @@ h2{
 	top: 325px;
 	left: 170px;
 	font-size: 30px;
-	font-family: Courier;
+	font-family: Palatino;
 	font-weight: bold;
 }
 
@@ -28,12 +28,18 @@ h2{
 	left: 100px;
 }
 
-.r1{
+.r1 {
 	width: 14.4px;
 	height: 185px;
 	top: 107px;
 	left: 90px;
 	transform: skewY(-35deg);
+}
+
+.r1:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform:  scale(1.2);
 }
 
 .r2{
@@ -44,12 +50,25 @@ h2{
 	transform: skew(-55deg);
 }
 
+.r2:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 5px;
+	transform:  skew(-55deg) scale(1.5);
+}
+
 .r3{
 	width: 15px;
 	height: 15px;
 	top: 111.5px;
 	left: 60px;
 	transform: rotate(-32deg);
+}
+
+.r3:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-32deg) scale(1.2);
 }
 
 .r4{
@@ -60,12 +79,24 @@ h2{
 	transform: rotate(-32deg);
 }
 
+.r4:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform:  rotate(-32deg) scale(1.2);
+}
+
 .r5{
 	width: 15px;
 	height: 78.5px;
 	top: 74px;
 	left: 149px;
 	transform: rotate(-32deg);
+}
+
+.r5:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform:  rotate(-32deg) scale(1.2);
 }
 
 .r6{
@@ -76,12 +107,25 @@ h2{
 	transform: skew(-55deg);
 }
 
+.r6:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 5px;
+	transform:  skew(-55deg) scale(1.5);
+}
+
 .r7{
 	width: 15px;
 	height: 137px;
 	top: 168.5px;
 	left: 155px;
 	transform: rotate(-32deg);
+}
+
+.r7:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform:  rotate(-32deg) scale(1.2);
 }
 
 .r8{
@@ -91,11 +135,23 @@ h2{
 	left: 76px;
 }
 
+.r8:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform:  scale(1.2);
+}
+
 .r9{
 	width: 19px;
 	height: 15px;
 	top: 285px;
 	left: 193px;
+}
+
+.r9:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform:  scale(1.2);
 }
 
 .a{
@@ -111,12 +167,25 @@ h2{
 	transform: rotate(20deg);
 }
 
+.aleft:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 5px;
+	transform:  rotate(20deg) scale(1.2);
+}
+
 .aright{
 	width: 15px;
 	height: 220px;
 	top: 85px;
 	left: 360px;
 	transform: skew(20deg);
+}
+
+.aright:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: skew(20deg) scale(1.2);
 }
 
 .aserifl{
@@ -126,6 +195,12 @@ h2{
 	left: 257px;
 }
 
+.aserifl:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform:  scale(1.5);
+}
+
 .aserifr{
 	width: 15px;
 	height: 15px;
@@ -133,11 +208,23 @@ h2{
 	left: 405px;
 }
 
+.aserifr:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform:  scale(1.5);
+}
+
 .aseriftop{
 	width: 15px;
 	height: 15px;
 	top: 85px;
 	left: 313px;
+}
+
+.aseriftop:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform:  scale(1.5);
 }
 
 .amiddle{
@@ -148,12 +235,25 @@ h2{
 	transform: rotate(-70deg);
 }
 
+.amiddle:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform:  rotate(-70deg) scale(1.2);
+}
+
 .aserifmidleft{
 	width: 2pt;
 	height: 38px;
 	top: 170px;
 	left: 280px;
 	transform: rotate(20deg);
+}
+
+.aserifmidleft:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 4px;
+	transform:  rotate(20deg) scale(1.5);
 }
 
 .aserifmidright{
@@ -163,6 +263,14 @@ h2{
 	left: 382px;
 	transform: rotate(20deg);
 }
+
+.aserifmidright:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 4px;
+	transform:  rotate(20deg) scale(1.5);
+}
+
 
 .n{
 	position: absolute;
@@ -176,11 +284,26 @@ h2{
 	left: 485px;
 }
 
+.nleft:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 4px;
+	transform:scale(1.2);
+}
+
+
 .nright{
 	width: 2pt;
 	height: 200px;
 	top: 95px;
 	left: 615px;
+}
+
+.nright:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 4px;
+	transform:scale(1.2);
 }
 
 .nmiddle{
@@ -192,12 +315,25 @@ h2{
 	transform: rotate(-35deg);
 }
 
+.nmiddle:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-35deg) scale(1.2);
+}
+
 .ntopleftserif1{
 	width: 3pt;
 	height: 35px;
 	top: 70px;
 	left: 472.5px;
 	transform: skew(-55deg);
+}
+
+.ntopleftserif1:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 4px;
+	transform: skew(-55deg) scale(1.5);
 }
 
 
@@ -209,6 +345,12 @@ h2{
 	transform: rotate(-32deg);
 }
 
+.ntopleftserif2:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-32deg) scale(1.5);
+}
+
 .ntopleftserif3{
 	width: 15px;
 	height: 15px;
@@ -217,6 +359,13 @@ h2{
 	transform: rotate(-32deg);
 }
 
+.ntopleftserif3:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-32deg) scale(1.5);
+}
+
+
 .nbottomleftserif1{
 	width: 15px;
 	height: 15px;
@@ -224,12 +373,26 @@ h2{
 	left: 470px;
 }
 
+.nbottomleftserif1:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.5);
+}
+
+
 .ntoprightserif1{
 	width: 16px;
 	height: 15px;
 	top: 90px;
 	left: 615px;
 }
+
+.ntoprightserif1:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.5);
+}
+
 
 .nbottomrightserif1{
 	width: 3pt;
@@ -239,6 +402,12 @@ h2{
 	transform: skew(-55deg);
 }
 
+.nbottomrightserif1:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 4px;
+	transform: skew(-55deg) scale(1.5);
+}
 
 .nbottomrightserif2{
 	width: 15px;
@@ -246,6 +415,12 @@ h2{
 	top: 307px;
 	left: 593px;
 	transform: rotate(-32deg);
+}
+
+.nbottomrightserif2:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-32deg) scale(1.5);
 }
 
 .nbottomrightserif3{
@@ -256,11 +431,23 @@ h2{
 	transform: rotate(-32deg);
 }
 
+.nbottomrightserif3:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-32deg) scale(1.5);
+}
+
 .gleft{
 	width: 14.4px;
 	height: 215px;
 	top: 90px;
 	left: 737px;
+}
+
+.gleft:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.2);
 }
 
 .gtop{
@@ -270,11 +457,24 @@ h2{
 	left: 705px;
 }
 
+.gtop:hover {
+	background-color: darkred;
+	opacity: 50%;
+	height: 4px;
+	transform: scale(1.2);
+}
+
 .gtopleftserif{
 	width: 15px;
 	height: 15px;
 	top: 89px;
 	left: 705px;
+}
+
+.gtopleftserif:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.2);
 }
 
 .gtoprightserif{
@@ -284,11 +484,24 @@ h2{
 	left: 860px;
 }
 
+.gtoprightserif:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.2);
+}
+
 .gbottom{
 	width: 170px;
 	height: 2pt;
 	top: 304px;
 	left: 705px;
+}
+
+.gbottom:hover {
+	background-color: darkred;
+	opacity: 50%;
+	height: 4px;
+	transform: scale(1.2);
 }
 
 .gbottomleftserif{
@@ -298,19 +511,37 @@ h2{
 	left: 705px;
 }
 
+.gbottomleftserif:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.2);
+}
+
 .gright{
 	width: 15px;
-	height: 115px;
-	top: 205px;
+	height: 15px;
+	top: 305px;
 	left: 860px;
+}
+
+.gright:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.2);
 }
 
 .gright2{
 	width: 15px;
-	height: 100px;
+	height: 115px;
 	top: 200px;
 	left: 860px;
 	transform: skewY(-35deg)
+}
+
+.gright2:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform:  skewY(-35deg); scale(1.2);
 }
 
 .grightserif1{
@@ -319,6 +550,13 @@ h2{
 	top: 185px;
 	left: 855px;
 	transform: skew(-55deg);
+}
+
+.grightserif1:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 4px;
+	transform: skew(-55deg) scale(1.5);
 }
 
 
@@ -330,10 +568,192 @@ h2{
 	transform: rotate(-32deg);
 }
 
+.grightserif2:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-32deg) scale(1.2);
+}
+
 .grightserif3{
 	width: 15px;
 	height: 15px;
 	top: 180px;
 	left: 890px;
 	transform: rotate(-32deg);
+}
+
+.grightserif3:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-32deg) scale(1.2);
+}
+
+.eleft{
+	width: 14.4px;
+	height: 235px;
+	top: 80px;
+	left: 955px;
+	transform: skewY(-35deg);
+}
+
+.eleft:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.2);
+}
+
+.etop{
+	width: 160px;
+	height: 2pt;
+	top: 89px;
+	left: 955px;
+}
+
+.etop:hover {
+	background-color: darkred;
+	opacity: 50%;
+	height: 4px;
+	transform: scale(1.2);
+}
+
+.ebottom{
+	width: 160px;
+	height: 2pt;
+	top: 290px;
+	left: 955px;
+}
+
+.ebottom:hover {
+	background-color: darkred;
+	opacity: 50%;
+	height: 4px;
+	transform: scale(1.2);
+}
+
+.emiddle{
+	width: 100px;
+	height: 2pt;
+	top: 191px;
+	left: 955px;
+}
+
+.emiddle:hover {
+	background-color: darkred;
+	opacity: 50%;
+	height: 4px;
+	transform: scale(1.2);
+}
+
+.etoprightserif{
+	width: 15px;
+	height: 15px;
+	top: 74px;
+	left: 1100px;
+}
+
+.etoprightserif:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.2);
+}	
+
+.ebottomrightserif{
+	width: 15px;
+	height: 15px;
+	top: 290px;
+	left: 1100px;
+}
+
+.ebottomrightserif:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.2);
+}	
+
+.etopleftserif1{
+	width: 3pt;
+	height: 35px;
+	top: 66px;
+	left: 957.5px;
+	transform: skew(-55deg);
+}
+
+.etopleftserif1:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 4px;
+	transform: skew(-55deg) scale(1.5);
+}
+
+
+.etopleftserif2{
+	width: 15px;
+	height: 15px;
+	top: 85px;
+	left: 927.5px;
+	transform: rotate(-32deg);
+}
+
+.etopleftserif2:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-32deg) scale(1.5);
+}
+
+.etopleftserif3{
+	width: 15px;
+	height: 15px;
+	top: 64px;
+	left: 981px;
+	transform: rotate(-32deg);
+}
+
+.etopleftserif3:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-32deg) scale(1.5);
+}
+
+.ebottomleftserif1{
+	width: 3pt;
+	height: 35px;
+	top: 298px;
+	left: 957.5px;
+	transform: skew(-55deg);
+}
+
+.ebottomleftserif1:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 4px;
+	transform: skew(-55deg) scale(1.5);
+}
+
+
+.ebottomleftserif2{
+	width: 15px;
+	height: 15px;
+	top: 317px;
+	left: 927.5px;
+	transform: rotate(-32deg);
+}
+
+.ebottomleftserif2:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-32deg) scale(1.5);
+}
+
+.ebottomleftserif3{
+	width: 15px;
+	height: 15px;
+	top: 296px;
+	left: 981px;
+	transform: rotate(-32deg);
+}
+
+.ebottomleftserif3:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-32deg) scale(1.5);
 }
