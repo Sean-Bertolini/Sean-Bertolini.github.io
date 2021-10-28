@@ -2,7 +2,7 @@ p {
 	width: 620px;
 	position: absolute;
 	top: 390px;
-	left: 170px;
+	left: 120px;
 	font-family: Palatino;
 	font-size: 18px;
 	line-height: 26px;
@@ -12,7 +12,7 @@ h2{
 	width: 500px;
 	position: absolute;
 	top: 325px;
-	left: 170px;
+	left: 120px;
 	font-size: 30px;
 	font-family: Palatino;
 	font-weight: bold;
@@ -25,7 +25,7 @@ h2{
 
 .textbox{
 	position: absolute;
-	left: 100px;
+	left: 50px;
 }
 
 .r1 {
@@ -39,7 +39,8 @@ h2{
 .r1:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform:  scale(1.2);
+	transform: skewY(-35deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .r2{
@@ -55,6 +56,7 @@ h2{
 	opacity: 50%;
 	width: 5px;
 	transform:  skew(-55deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 .r3{
@@ -68,7 +70,8 @@ h2{
 .r3:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: rotate(-32deg) scale(1.2);
+	transform: rotate(-180deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .r4{
@@ -82,7 +85,8 @@ h2{
 .r4:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform:  rotate(-32deg) scale(1.2);
+	transform:  rotate(-180deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .r5{
@@ -97,6 +101,7 @@ h2{
 	background-color: darkred;
 	opacity: 50%;
 	transform:  rotate(-32deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .r6{
@@ -112,6 +117,7 @@ h2{
 	opacity: 50%;
 	width: 5px;
 	transform:  skew(-55deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 .r7{
@@ -126,6 +132,7 @@ h2{
 	background-color: darkred;
 	opacity: 50%;
 	transform:  rotate(-32deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .r8{
@@ -138,7 +145,8 @@ h2{
 .r8:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform:  scale(1.2);
+	transform:  scale(1.2) rotate(360deg);
+	transition: all 0.5s;
 }
 
 .r9{
@@ -151,7 +159,8 @@ h2{
 .r9:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform:  scale(1.2);
+	transform:  scale(1.2) rotate(360deg);
+	transition: all 0.5s;
 }
 
 .a{
@@ -164,7 +173,7 @@ h2{
 	height: 200px;
 	top: 105px;
 	left: 300px;
-	transform: rotate(20deg);
+	transform: rotate(20deg)
 }
 
 .aleft:hover {
@@ -172,6 +181,7 @@ h2{
 	opacity: 50%;
 	width: 5px;
 	transform:  rotate(20deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .aright{
@@ -186,6 +196,7 @@ h2{
 	background-color: darkred;
 	opacity: 50%;
 	transform: skew(20deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .aserifl{
@@ -198,7 +209,8 @@ h2{
 .aserifl:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform:  scale(1.5);
+	transform:  scale(1.5) rotate(360deg);
+	transition: all 0.5s;
 }
 
 .aserifr{
@@ -211,7 +223,8 @@ h2{
 .aserifr:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform:  scale(1.5);
+	transform:  scale(1.5) rotate(360deg);
+	transition: all 0.5s;
 }
 
 .aseriftop{
@@ -224,7 +237,8 @@ h2{
 .aseriftop:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform:  scale(1.5);
+	transform:  scale(1.5) rotate(360deg);
+	transition: all 0.5s;
 }
 
 .amiddle{
@@ -239,6 +253,7 @@ h2{
 	background-color: darkred;
 	opacity: 50%;
 	transform:  rotate(-70deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .aserifmidleft{
@@ -254,6 +269,7 @@ h2{
 	opacity: 50%;
 	width: 4px;
 	transform:  rotate(20deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 .aserifmidright{
@@ -269,6 +285,7 @@ h2{
 	opacity: 50%;
 	width: 4px;
 	transform:  rotate(20deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 
@@ -289,6 +306,7 @@ h2{
 	opacity: 50%;
 	width: 4px;
 	transform:scale(1.2);
+	transition: all 0.5s;
 }
 
 
@@ -304,6 +322,7 @@ h2{
 	opacity: 50%;
 	width: 4px;
 	transform:scale(1.2);
+	transition: all 0.5s;
 }
 
 .nmiddle{
@@ -319,6 +338,7 @@ h2{
 	background-color: darkred;
 	opacity: 50%;
 	transform: rotate(-35deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .ntopleftserif1{
@@ -334,6 +354,7 @@ h2{
 	opacity: 50%;
 	width: 4px;
 	transform: skew(-55deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 
@@ -348,7 +369,8 @@ h2{
 .ntopleftserif2:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: rotate(-32deg) scale(1.5);
+	transform: rotate(-180deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 .ntopleftserif3{
@@ -362,7 +384,8 @@ h2{
 .ntopleftserif3:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: rotate(-32deg) scale(1.5);
+	transform: rotate(-180deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 
@@ -376,7 +399,8 @@ h2{
 .nbottomleftserif1:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: scale(1.5);
+	transform: scale(1.5) rotate(360deg);
+	transition: all 0.5s;
 }
 
 
@@ -390,7 +414,8 @@ h2{
 .ntoprightserif1:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: scale(1.5);
+	transform: scale(1.5) rotate(360deg);
+	transition: all 0.5s;
 }
 
 
@@ -407,6 +432,7 @@ h2{
 	opacity: 50%;
 	width: 4px;
 	transform: skew(-55deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 .nbottomrightserif2{
@@ -420,7 +446,8 @@ h2{
 .nbottomrightserif2:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: rotate(-32deg) scale(1.5);
+	transform: rotate(-180deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 .nbottomrightserif3{
@@ -434,9 +461,25 @@ h2{
 .nbottomrightserif3:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: rotate(-32deg) scale(1.5);
+	transform: rotate(-180deg) scale(1.5);
+	transition: all 0.5s;
 }
 
+.g{
+	position: absolute;
+	left: -5px;
+}
+
+.n{
+	position: absolute;
+	left: 3px;
+}
+
+.e{
+	position: absolute;
+	left: -2px;
+	transform: scaleY(1.02);
+}
 .gleft{
 	width: 14.4px;
 	height: 215px;
@@ -448,6 +491,7 @@ h2{
 	background-color: darkred;
 	opacity: 50%;
 	transform: scale(1.2);
+	transition: all 0.5s;
 }
 
 .gtop{
@@ -462,6 +506,7 @@ h2{
 	opacity: 50%;
 	height: 4px;
 	transform: scale(1.2);
+	transition: all 0.5s;
 }
 
 .gtopleftserif{
@@ -474,7 +519,8 @@ h2{
 .gtopleftserif:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: scale(1.2);
+	transform: scale(1.2) rotate(360deg);
+	transition: all 0.5s;
 }
 
 .gtoprightserif{
@@ -487,7 +533,8 @@ h2{
 .gtoprightserif:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: scale(1.2);
+	transform: scale(1.2) rotate(360deg);
+	transition: all 0.5s;
 }
 
 .gbottom{
@@ -502,6 +549,7 @@ h2{
 	opacity: 50%;
 	height: 4px;
 	transform: scale(1.2);
+	transition: all 0.5s;
 }
 
 .gbottomleftserif{
@@ -514,7 +562,8 @@ h2{
 .gbottomleftserif:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: scale(1.2);
+	transform: scale(1.2) rotate(360deg);
+	transition: all 0.5s;
 }
 
 .gright{
@@ -527,7 +576,12 @@ h2{
 .gright:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: scale(1.2);
+	width: 22px;
+	height: 22px;
+	position: absolute;
+	left: 857px;
+	transform: rotate(360deg);
+	transition: all 0.5s;
 }
 
 .gright2{
@@ -541,7 +595,8 @@ h2{
 .gright2:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform:  skewY(-35deg); scale(1.2);
+	transform:  skewY(-35deg) scale(1.15);
+	transition: all 0.5s;
 }
 
 .grightserif1{
@@ -557,6 +612,7 @@ h2{
 	opacity: 50%;
 	width: 4px;
 	transform: skew(-55deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 
@@ -571,7 +627,8 @@ h2{
 .grightserif2:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: rotate(-32deg) scale(1.2);
+	transform: rotate(-180deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .grightserif3{
@@ -585,7 +642,8 @@ h2{
 .grightserif3:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: rotate(-32deg) scale(1.2);
+	transform: rotate(-180deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .eleft{
@@ -599,7 +657,8 @@ h2{
 .eleft:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: scale(1.2);
+	transform: skewY(-35deg) scale(1.2);
+	transition: all 0.5s;
 }
 
 .etop{
@@ -614,6 +673,7 @@ h2{
 	opacity: 50%;
 	height: 4px;
 	transform: scale(1.2);
+	transition: all 0.5s;
 }
 
 .ebottom{
@@ -628,6 +688,7 @@ h2{
 	opacity: 50%;
 	height: 4px;
 	transform: scale(1.2);
+	transition: all 0.5s;
 }
 
 .emiddle{
@@ -642,6 +703,7 @@ h2{
 	opacity: 50%;
 	height: 4px;
 	transform: scale(1.2);
+	transition: all 0.5s;
 }
 
 .etoprightserif{
@@ -654,7 +716,8 @@ h2{
 .etoprightserif:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: scale(1.2);
+	transform: scale(1.2) rotate(360deg);
+	transition: all 0.5s;
 }	
 
 .ebottomrightserif{
@@ -667,7 +730,8 @@ h2{
 .ebottomrightserif:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: scale(1.2);
+	transform: scale(1.2) rotate(360deg);
+	transition: all 0.5s;
 }	
 
 .etopleftserif1{
@@ -683,6 +747,7 @@ h2{
 	opacity: 50%;
 	width: 4px;
 	transform: skew(-55deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 
@@ -697,7 +762,8 @@ h2{
 .etopleftserif2:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: rotate(-32deg) scale(1.5);
+	transform: rotate(-180deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 .etopleftserif3{
@@ -711,7 +777,8 @@ h2{
 .etopleftserif3:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: rotate(-32deg) scale(1.5);
+	transform: rotate(-180deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 .ebottomleftserif1{
@@ -727,6 +794,7 @@ h2{
 	opacity: 50%;
 	width: 4px;
 	transform: skew(-55deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 
@@ -741,7 +809,8 @@ h2{
 .ebottomleftserif2:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: rotate(-32deg) scale(1.5);
+	transform: rotate(-180deg) scale(1.5);
+	transition: all 0.5s;
 }
 
 .ebottomleftserif3{
@@ -755,5 +824,182 @@ h2{
 .ebottomleftserif3:hover {
 	background-color: darkred;
 	opacity: 50%;
-	transform: rotate(-32deg) scale(1.5);
+	transform: scale(1.5) rotate(-180deg);
+	transition: all 0.5s;
+}
+
+.s{
+	position: absolute;
+	left: -30px;
+	top: -5px;
+	transform: scaleY(1.01);
+}
+
+.stop{
+	width: 145px;
+	height: 2pt;
+	top: 89px;
+	left: 1200px;
+	transform: skew(-35deg);
+}
+
+.stop:hover {
+	background-color: darkred;
+	opacity: 50%;
+	height: 4px;
+	transform: skew(-35deg) scale(1.2);
+	transition: all 0.5s;
+}
+
+.sbottom{
+	width: 145px;
+	height: 2pt;
+	top: 304px;
+	left: 1207px;
+	transform: skew(-35deg);
+}
+
+.sbottom:hover {
+	background-color: darkred;
+	opacity: 50%;
+	height: 4px;
+	transform: skew(-35deg) scale(1.2);
+	transition: all 0.5s;
+}
+
+.sleft{
+	width: 15px;
+	height: 102px;
+	top: 89px;
+	left: 1200px;
+}
+
+.sleft:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+
+.smiddle{
+	width: 150px;
+	height: 2pt;
+	top: 191px;
+	left: 1200px;
+}
+
+.smiddle:hover {
+	background-color: darkred;
+	opacity: 50%;
+	height: 4px;
+	transform: scale(1.2);
+	transition: all 0.5s;
+}
+
+.sright{
+	width: 15px;
+	height: 115px;
+	top: 191px;
+	left: 1338px;
+}
+
+.sright:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+
+.stopserif1{
+	width: 3pt;
+	height: 35px;
+	top: 77px;
+	left: 1339.5px;
+	transform: skew(-45deg);
+}
+
+.stopserif1:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 3px;
+	transform: skew(-45deg) scale(1.8) ;
+	transition: all 0.5s;
+}
+
+
+.stopserif2{
+	width: 15px;
+	height: 15px;
+	top: 102px;
+	left: 1310.5px;
+	transform: rotate(-45deg);
+}
+
+.stopserif2:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-180deg) scale(1.5);
+	transition: all 0.5s;
+}
+
+.stopserif3{
+	width: 15px;
+	height: 15px;
+	top: 70px;
+	left: 1360px;
+	transform: rotate(-45deg);
+}
+
+.stopserif3:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-180deg) scale(1.5);
+	transition: all 0.5s;
+}
+
+.sbottomserif1{
+	width: 3pt;
+	height: 35px;
+	top: 285px;
+	left: 1206.5px;
+	transform: skew(-45deg);
+}
+
+.sbottomserif1:hover {
+	background-color: darkred;
+	opacity: 50%;
+	width: 3px;
+	transform: skew(-45deg) scale(1.8) ;
+	transition: all 0.5s;
+}
+
+
+.sbottomserif2{
+	width: 15px;
+	height: 15px;
+	top: 310px;
+	left: 1177.5px;
+	transform: rotate(-45deg);
+}
+
+.sbottomserif2:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-180deg) scale(1.5);
+	transition: all 0.5s;
+}
+
+.sbottomserif3{
+	width: 15px;
+	height: 15px;
+	top: 278px;
+	left: 1227px;
+	transform: rotate(-45deg);
+}
+
+.sbottomserif3:hover {
+	background-color: darkred;
+	opacity: 50%;
+	transform: rotate(-180deg) scale(1.5);
+	transition: all 0.5s;
 }
