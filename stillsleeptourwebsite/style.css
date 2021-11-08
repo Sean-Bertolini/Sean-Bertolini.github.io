@@ -105,18 +105,51 @@
 }
 
 
-
-
 @media (max-width: 390px) {
 	h1{
-		font-size: 34vw;
-		height: 50vh;
-		width: 100vh;
+    position: absolute;
+		font-size: 10vw;
 		top: 0;
-		left: -100px;
-		transform: rotate(-90deg);
+    left: 15vw;
 	}
-	.bg{
-		background-image: url(stillsleep3.jpg);
-	}
+
+.touroutline {
+  position: absolute;
+  top: 70.3vh;
+  left: 21.5vw;
+  font-size: 2.8vw;
+  font-family: 'Luckiest Guy', cursive;
+  color: black;
 }
+
+
+.tour {
+  position: absolute;
+  top: 70vh;
+  left: 22vw;
+  font-size: 2.75vw;
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+}
+
+.sleepyoutline {
+  position: absolute;
+  top: 5.3vh;
+  left: 12.5vw;
+  font-size: 2.03vw;
+  font-family: 'Luckiest Guy', cursive;
+  color: black;
+}
+
+.sleepy {
+  position: absolute;
+  top: 5vh;
+  left: 13vw;
+  font-size: 2vw;
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+}
+
+}
+
+
