@@ -1,0 +1,122 @@
+.backgroundimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(sleepyhallow.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.albumcover {
+  position: absolute;
+  top: 14vh;
+  left: 12vw;
+  width: 75vw;
+  height: 75vh;
+  background-image: url(stillsleep.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sleepyoutline {
+  position: absolute;
+  top: 5.3vh;
+  left: 12.5vw;
+  font-size: 4.58vw;
+  font-family: 'Luckiest Guy', cursive;
+  color: black;
+}
+
+.sleepy {
+  position: absolute;
+  top: 5vh;
+  left: 13vw;
+  font-size: 4.5vw;
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+}
+
+.touroutline {
+  position: absolute;
+  top: 80.3vh;
+  left: 26.5vw;
+  font-size: 5.6vw;
+  font-family: 'Luckiest Guy', cursive;
+  color: black;
+}
+
+
+.tour {
+  position: absolute;
+  top: 80vh;
+  left: 27vw;
+  font-size: 5.5vw;
+  font-family: 'Luckiest Guy', cursive;
+  color: white;
+}
+
+.date {
+  position: absolute;
+  top: 41.5vh;
+  left: 3.5vw;
+  font-size: 3.5vw;
+  font-family: 'Candal', sans-serif;
+  color: white;
+}
+
+.location {
+  position: absolute;
+  top: 40vh;
+  left: 73vw;
+  font-size: 3vw;
+  font-family: 'Candal', sans-serif;
+  color: white;
+}
+
+.RL {
+  position: absolute;
+  top: 5vh;
+  left: 40vw;
+  font-size: 2.5vw;
+  font-family: 'Candal', sans-serif;
+  color: white;
+}
+
+.link {
+  position: absolute;
+  top: 90vh;
+  left: 79.5vw;
+  font-size: 2vw;
+  font-family: 'Candal', sans-serif;
+  color: white;
+}
+
+.price {
+  position: absolute;
+  top: 90vh;
+  left: 3.5vw;
+  font-size: 2.5vw;
+  font-family: 'Candal', sans-serif;
+  color: white;
+}
+
+
+
+
+@media (max-width: 390px) {
+	h1{
+		font-size: 34vw;
+		height: 50vh;
+		width: 100vh;
+		top: 0;
+		left: -100px;
+		transform: rotate(-90deg);
+	}
+	.bg{
+		background-image: url(stillsleep3.jpg);
+	}
+}
