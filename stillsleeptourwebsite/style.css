@@ -4,7 +4,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url(SleepyHallow.gif);
+  background-image: url(sleepyhallow.gif);
   background-size: cover;
   background-position: center;
 }
@@ -26,7 +26,7 @@
   position: absolute;
   top: 5.3vh;
   left: 12.5vw;
-  font-size: 4.58vw;
+  font-size: 2.53vw;
   font-family: 'Luckiest Guy', cursive;
   color: black;
 }
@@ -35,7 +35,7 @@
   position: absolute;
   top: 5vh;
   left: 13vw;
-  font-size: 4.5vw;
+  font-size: 2.5vw;
   font-family: 'Luckiest Guy', cursive;
   color: white;
 }
@@ -44,7 +44,7 @@
   position: absolute;
   top: 80.3vh;
   left: 26.5vw;
-  font-size: 5.6vw;
+  font-size: 2.8vw;
   font-family: 'Luckiest Guy', cursive;
   color: black;
 }
@@ -54,7 +54,7 @@
   position: absolute;
   top: 80vh;
   left: 27vw;
-  font-size: 5.5vw;
+  font-size: 2.75vw;
   font-family: 'Luckiest Guy', cursive;
   color: white;
 }
@@ -63,7 +63,7 @@
   position: absolute;
   top: 41.5vh;
   left: 3.5vw;
-  font-size: 3.5vw;
+  font-size: 2vw;
   font-family: 'Candal', sans-serif;
   color: white;
 }
@@ -71,8 +71,8 @@
 .location {
   position: absolute;
   top: 40vh;
-  left: 73vw;
-  font-size: 3vw;
+  left: 71vw;
+  font-size: 1.75vw;
   font-family: 'Candal', sans-serif;
   color: white;
 }
@@ -81,7 +81,7 @@
   position: absolute;
   top: 5vh;
   left: 40vw;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   font-family: 'Candal', sans-serif;
   color: white;
 }
@@ -90,7 +90,7 @@
   position: absolute;
   top: 90vh;
   left: 79.5vw;
-  font-size: 2vw;
+  font-size: 1.05vw;
   font-family: 'Candal', sans-serif;
   color: white;
 }
@@ -99,7 +99,7 @@
   position: absolute;
   top: 90vh;
   left: 3.5vw;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   font-family: 'Candal', sans-serif;
   color: white;
 }
