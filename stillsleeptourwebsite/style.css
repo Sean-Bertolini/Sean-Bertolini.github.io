@@ -68,13 +68,31 @@
   color: white;
 }
 
+.locationshadow {
+  position: absolute;
+  top: 42.25vh;
+  left: 71vw;
+  font-size: 2.35vw;
+  font-family: 'Candal', sans-serif;
+  color: black;
+}
+
 .location {
   position: absolute;
-  top: 40vh;
+  top: 38vh;
   left: 71vw;
-  font-size: 1.75vw;
+  font-size: 2vw;
   font-family: 'Candal', sans-serif;
   color: white;
+}
+
+.RLshadow {
+  position: absolute;
+  top: 5vh;
+  left: 40vw;
+  font-size: 1.5vw;
+  font-family: 'Candal', sans-serif;
+  color: black;
 }
 
 .RL {
@@ -86,6 +104,15 @@
   color: white;
 }
 
+.linkshadow {
+  position: absolute;
+  top: 90vh;
+  left: 79.5vw;
+  font-size: 1.05vw;
+  font-family: 'Candal', sans-serif;
+  color: black;
+}
+
 .link {
   position: absolute;
   top: 90vh;
@@ -94,6 +121,16 @@
   font-family: 'Candal', sans-serif;
   color: white;
 }
+
+.priceshadow {
+  position: absolute;
+  top: 90vh;
+  left: 3.5vw;
+  font-size: 1.5vw;
+  font-family: 'Candal', sans-serif;
+  color: black;
+}
+
 
 .price {
   position: absolute;
@@ -106,18 +143,13 @@
 
 
 @media (max-width: 390px) {
-	h1{
-    position: absolute;
-		font-size: 10vw;
-		top: 0;
-    left: 15vw;
-	}
+
 
 .touroutline {
   position: absolute;
-  top: 70.3vh;
+  top: 69.3vh;
   left: 21.5vw;
-  font-size: 2.8vw;
+  font-size: 5.8vw;
   font-family: 'Luckiest Guy', cursive;
   color: black;
 }
@@ -125,29 +157,124 @@
 
 .tour {
   position: absolute;
-  top: 70vh;
+  top: 69vh;
   left: 22vw;
-  font-size: 2.75vw;
+  font-size: 5.75vw;
   font-family: 'Luckiest Guy', cursive;
   color: white;
 }
 
 .sleepyoutline {
   position: absolute;
-  top: 5.3vh;
+  top: 14vh;
   left: 12.5vw;
-  font-size: 2.03vw;
+  font-size: 5.06vw;
   font-family: 'Luckiest Guy', cursive;
   color: black;
 }
 
 .sleepy {
   position: absolute;
-  top: 5vh;
+  top: 13.5vh;
   left: 13vw;
-  font-size: 2vw;
+  font-size: 5vw;
   font-family: 'Luckiest Guy', cursive;
   color: white;
+}
+
+.locationshadow {
+  position: absolute;
+  top: 30.3vh;
+  left: 11.8vw;
+  font-size: 4.47vw;
+  font-family: 'Candal', sans-serif;
+  color: black;
+}
+
+
+.location {
+  position: absolute;
+  top: 28vh;
+  left: 12vw;
+  font-size: 3.75vw;
+  font-family: 'Candal', sans-serif;
+  color: white;
+}
+
+.date {
+  position: absolute;
+  top: 63vh;
+  left: 38vw;
+  font-size: 4vw;
+  font-family: 'Candal', sans-serif;
+  color: white;
+  opacity: 0%;
+}
+
+.linkshadow {
+  position: absolute;
+  top: 68.1vh;
+  left: 43.4vw;
+  font-size: 3.07vw;
+  font-family: 'Candal', sans-serif;
+  color: black;
+}
+
+.link {
+  position: absolute;
+  top: 68vh;
+  left: 44vw;
+  font-size: 3.05vw;
+  font-family: 'Candal', sans-serif;
+  color: white;
+}
+
+.RLshadow {
+  position: absolute;
+  top: 10.15vh;
+  left: 23.1vw;
+  font-size: 3.95vw;
+  font-family: 'Candal', sans-serif;
+  color: black;
+}
+
+.RL {
+  position: absolute;
+  top: 10vh;
+  left: 23.5vw;
+  font-size: 3.9vw;
+  font-family: 'Candal', sans-serif;
+  color: white;
+}
+
+.priceshadow {
+  position: absolute;
+  top: 86.75vh;
+  left: 42.95vw;
+  font-size: 5.1vw;
+  font-family: 'Candal', sans-serif;
+  color: black;
+}
+
+.price{
+  position: absolute;
+  top: 86.5vh;
+  left: 43vw;
+  font-size: 5vw;
+  font-family: 'Candal', sans-serif;
+  color: white;
+}
+
+.albumcover {
+  position: absolute;
+  top: 13vh;
+  left: 12vw;
+  width: 75vw;
+  height: 75vh;
+  background-image: url(stillsleep.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 }
