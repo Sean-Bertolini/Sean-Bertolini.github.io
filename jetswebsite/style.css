@@ -1,0 +1,87 @@
+.backgroundimg {
+	position: absolute;
+	top: 0px;
+	left: 0vw;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(homebackground.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.titlebox {
+	position: absolute;
+	top: -.5vh;
+	left: 0px;
+	width: 72vw;
+	height: 12vh;
+	background-color: rgb(0, 104, 56);
+}
+
+.title {
+	position: absolute;
+	top: -1vh;
+	left: 2vw;
+	width: 70vw;
+	height: 12vh;
+	color: white;
+	font-size:5.5vw;
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgb(0, 104, 56);
+}
+
+.nyjetsbox {
+	position: absolute;
+	top: 13vh;
+	right: 0px;
+	width: 75vw;
+	height: 19vh;
+	background-color: rgb(0, 104, 56);
+}
+
+.nyjets {
+	position: absolute;
+	top: -6vh;
+	right: 2vw;
+	font-size: 11.5vw;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-variant: small-caps;
+}
+
+.offensebox {
+	position: absolute;
+	bottom: 23vh;
+	left: 5vw;
+	height: 10vh;
+	width: 18.3vw;
+	background-color: rgb(0, 104, 56);
+}
+
+.offense {
+	position: absolute;
+	left: 1vw;
+	top: -.5vh;
+	font-size: 4vw;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.defensebox {
+	position: absolute;
+	bottom: 32.5vh;
+	right: 6vw;
+	height: 10vh;
+	width: 20vw;
+	background-color: rgb(0, 104, 56);
+}
+
+.defense {
+	position: absolute;
+	left: 1.5vw;
+	top: -.5vh;
+	font-size: 4vw;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
