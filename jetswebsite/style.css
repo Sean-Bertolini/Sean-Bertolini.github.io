@@ -43,7 +43,7 @@
 .nyjets {
 	position: absolute;
 	top: -6vh;
-	right: 2vw;
+	left: 1vw;
 	font-size: 11.5vw;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
@@ -85,3 +85,6 @@
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 }
+
+
+

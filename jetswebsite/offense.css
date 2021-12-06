@@ -1,0 +1,389 @@
+.offensebackground {
+	position: absolute;
+	top: 0px;
+	left: -5vw;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(teambackground.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.offense {
+	position: absolute;
+	top: 57vh;
+	left: 36.5vw;
+	color: rgb(18, 88, 64);
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3.5vw;
+	font-weight: 1500;
+}
+
+.TEbox {
+	position: absolute;
+	top: 31vh;
+	left: 6vw;
+	width: 9vw;
+	height: 12.5vw;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: rgb(0, 0, 0);
+}
+
+.TEimg {
+	position: relative;
+	top: 2vw;
+	left: 1.5vw;
+	width: 6vw;
+	height: 7.5vw;
+	background-image: url(tyler-kroft.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.TEname {
+	position: relative;
+	width: 8vw;
+	top: 2.5vw;
+	left: 1.65vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+}
+
+.LTbox {
+	position: absolute;
+	top: 31vh;
+	left: 25vw;
+	width: 9vw;
+	height: 12.5vw;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: rgb(0, 0, 0);
+}
+
+.LTimg {
+	position: relative;
+	top: 2.5vw;
+	left: 1.5vw;
+	width: 6vw;
+	height: 7.5vw;
+	background-image: url(becton.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.LTname {
+	position: relative;
+	top: 2.25vw;
+	left: 1vw;
+	width: 8vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+}
+
+.LGbox {
+	position: absolute;
+	top: 31vh;
+	left: 35vw;
+	width: 9vw;
+	height: 12.5vw;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: rgb(0, 0, 0);
+}
+
+.LGimg {
+	position: relative;
+	top: 1.75vw;
+	left: 1.5vw;
+	width: 6vw;
+	height: 7.8vw;
+	background-image: url(vera-tucker.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.LGname {
+	position: relative;
+	top: 3.8vh;
+	left: .25vw;
+	width: 9vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+}
+
+.Cbox {
+	position: absolute;
+	top: 31vh;
+	left: 45vw;
+	width: 9vw;
+	height: 12.5vw;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: rgb(0, 0, 0);
+}
+
+.Cimg {
+	position: relative;
+	top: 2vw;
+	left: 1.5vw;
+	width: 6vw;
+	height: 7.5vw;
+	background-image: url(mcgovern.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.Cname {
+	position: relative;
+	top: 4.25vh;
+	left: .62vw;
+	width: 8vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+}
+
+.RGbox {
+	position: absolute;
+	top: 31vh;
+	left: 55vw;
+	width: 9vw;
+	height: 12.5vw;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: rgb(0, 0, 0);
+}
+
+.RGimg {
+	position: relative;
+	top: 2vw;
+	left: 1.5vw;
+	width: 6vw;
+	height: 7.5vw;
+	background-image: url(van-roten.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.RGname {
+	position: relative;
+	top: 4.25vh;
+	left: .75vw;
+	width: 8vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+}
+
+.RTbox {
+	position: absolute;
+	top: 31vh;
+	left: 65vw;
+	width: 9vw;
+	height: 12.5vw;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: rgb(0, 0, 0);
+}
+
+.RTimg {
+	position: relative;
+	top: 2vw;
+	left: 1.5vw;
+	width: 6vw;
+	height: 7.5vw;
+	background-image: url(Moses.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.RTname {
+	position: relative;
+	top: 4.25vh;
+	left: 1vw;
+	width: 8vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+}
+
+.WR1box {
+	position: absolute;
+	top: 31vh;
+	left: 85vw;
+	width: 9vw;
+	height: 12.5vw;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: rgb(0, 0, 0);
+}
+
+.WR1img {
+	position: relative;
+	top: 2vw;
+	left: 1.5vw;
+	width: 6vw;
+	height: 7.5vw;
+	background-image: url(coreydavis.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.WR1name {
+	position: relative;
+	top: 4.75vh;
+	left: 1.25vw;
+	width: 8vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+}
+
+.QBbox {
+	position: absolute;
+	top: 70vh;
+	left: 45vw;
+	width: 9vw;
+	height: 12.5vw;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: rgb(0, 0, 0);
+}
+
+.QBimg {
+	position: relative;
+	top: 1.35vw;
+	left: 1.5vw;
+	width: 6vw;
+	height: 7.8vw;
+	background-image: url(wilson.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.QBname {
+	position: relative;
+	top: 3.05vh;
+	left: 1.13vw;
+	width: 8vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+}
+
+.RB1box {
+	position: absolute;
+	top: 70vh;
+	left: 55vw;
+	width: 9.5vw;
+	height: 12.5vw;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: rgb(0, 0, 0);
+}
+
+.RB1img {
+	position: relative;
+	top: 1.35vw;
+	left: 1.85vw;
+	width: 6vw;
+	height: 7.5vw;
+	background-image: url(michaelcarter.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.RB1name {
+	position: relative;
+	top: 3.5vh;
+	left: 1vw;
+	width: 8vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+}
+
+.SLWRbox {
+	position: absolute;
+	top: 57vh;
+	left: 75vw;
+	width: 9.5vw;
+	height: 12.5vw;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: rgb(0, 0, 0);
+}
+
+.SLWRimg {
+	position: relative;
+	top: 2.25vw;
+	left: 2vw;
+	width: 5.25vw;
+	height: 6.5vw;
+	background-image: url(moore.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.SLWRname {
+	position: relative;
+	top: 5.5vh;
+	left: 1vw;
+	width: 8vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+}
+
+.WR2box {
+	position: absolute;
+	top: 57vh;
+	left: 17vw;
+	width: 9.5vw;
+	height: 12.5vw;
+	background-color: rgb(255, 255, 255);
+	border-radius: 5%;
+	border-color: rgb(0, 0, 0);
+}
+
+.WR2img {
+	position: relative;
+	top: 2vw;
+	left: 1.75vw;
+	width: 6vw;
+	height: 7.5vw;
+	background-image: url(crowder.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.WR2name {
+	position: relative;
+	top: 3.375vh;
+	left: .5vw;
+	width: 9vw;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: rgb(0, 0, 0);
+}
+
+.helmet {
+	position: absolute;
+	background-image: url(teamhelmet.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 5vw;
+	height: 9vh;
+	top: 85vh;
+	left: 5.75vw;
+}
+
+
+
