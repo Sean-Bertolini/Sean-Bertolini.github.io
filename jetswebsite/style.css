@@ -4,7 +4,7 @@
 	left: 0vw;
 	width: 100vw;
 	height: 100vh;
-	background-image: url(homebackground.jpg);
+	background-image: url(new-york-jets-jets.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -29,6 +29,7 @@
 	font-size:5.5vw;
 	font-family: 'Open Sans', sans-serif;
 	background-color: rgb(0, 104, 56);
+	opacity: 80%;
 }
 
 .nyjetsbox {
@@ -48,16 +49,24 @@
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-variant: small-caps;
+	opacity: 75%;
 }
 
 .offensebox {
 	position: absolute;
-	bottom: 23vh;
+	bottom: 15vh;
 	left: 5vw;
 	height: 10vh;
 	width: 18.3vw;
 	background-color: rgb(131, 131, 131);
-	border-radius: 25%;
+	border-radius: 3vh;
+}
+
+.offensebox:hover {
+	background-color: rgb(0, 104, 56);
+	opacity: 50%;
+	transform: scale(1.1);
+	transition: all 0.5s;
 }
 
 .offense {
@@ -71,13 +80,21 @@
 
 .defensebox {
 	position: absolute;
-	bottom: 32.5vh;
+	bottom: 15vh;
 	right: 6vw;
 	height: 10vh;
 	width: 20vw;
 	background-color: rgb(131, 131, 131);
-	border-radius: 25%;
+	border-radius: 3vh;
 }
+
+.defensebox:hover {
+	background-color: rgb(0, 104, 56);
+	opacity: 50%;
+	transform: scale(1.1);
+	transition: all 0.5s;
+}
+
 
 .defense {
 	position: absolute;
