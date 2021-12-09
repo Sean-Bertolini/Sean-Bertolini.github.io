@@ -16,7 +16,7 @@
 .title {
 	position: absolute;
 	top: 1.75vw;
-	left: 7.5vw;
+	left: 28.5vw;
 	margin: auto;
 	color: rgb(255, 255, 255);
 	font-family: 'Open Sans', sans-serif;
@@ -50,11 +50,11 @@
 
 .playerinfo {
 	position: relative;
-	top: 44vh;
+	top: 43vh;
 	left: 3.5vw;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15pt;
-	line-height: 2.65vw;
+	line-height: 2.5vw;
 	color: rgb(0, 0, 0);
 
 }

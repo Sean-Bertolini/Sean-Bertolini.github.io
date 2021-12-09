@@ -31,6 +31,13 @@
 	border-color: rgb(0, 0, 0);
 }
 
+.TEbox:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.01);
+	transition: all 0.5s;
+}
+
 .TEimg {
 	position: relative;
 	top: 2vw;
@@ -52,6 +59,7 @@
 	color: rgb(0, 0, 0);
 }
 
+
 .LTbox {
 	position: absolute;
 	top: 70vh;
@@ -62,6 +70,15 @@
 	border-radius: 5%;
 	border-color: rgb(0, 0, 0);
 }
+
+
+.LTbox:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.01);
+	transition: all 0.5s;
+}
+
 
 .LTimg {
 	position: relative;
@@ -93,6 +110,13 @@
 	background-color: rgb(255, 255, 255);
 	border-radius: 5%;
 	border-color: rgb(0, 0, 0);
+}
+
+.LGbox:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.01);
+	transition: all 0.5s;
 }
 
 .LGimg {
@@ -127,6 +151,14 @@
 	border-color: rgb(0, 0, 0);
 }
 
+.Cbox:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.01);
+	transition: all 0.5s;
+}
+
+
 .Cimg {
 	position: relative;
 	top: 1.75vw;
@@ -157,6 +189,13 @@
 	background-color: rgb(255, 255, 255);
 	border-radius: 5%;
 	border-color: rgb(0, 0, 0);
+}
+
+.RGbox:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.01);
+	transition: all 0.5s;
 }
 
 .RGimg {
@@ -191,6 +230,13 @@
 	border-color: rgb(0, 0, 0);
 }
 
+.RTbox:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.01);
+	transition: all 0.5s;
+}
+
 .RTimg {
 	position: relative;
 	top: 2vw;
@@ -221,6 +267,13 @@
 	background-color: rgb(255, 255, 255);
 	border-radius: 5%;
 	border-color: rgb(0, 0, 0);
+}
+
+.WR1box:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.01);
+	transition: all 0.5s;
 }
 
 .WR1img {
@@ -255,6 +308,13 @@
 	border-color: rgb(0, 0, 0);
 }
 
+.QBbox:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.01);
+	transition: all 0.5s;
+}
+
 .QBimg {
 	position: relative;
 	top: 2.75vw;
@@ -285,6 +345,12 @@
 	background-color: rgb(255, 255, 255);
 	border-radius: 5%;
 	border-color: rgb(0, 0, 0);
+}
+.RB1box:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.01);
+	transition: all 0.5s;
 }
 
 .RB1img {
@@ -317,6 +383,13 @@
 	background-color: rgb(255, 255, 255);
 	border-radius: 5%;
 	border-color: rgb(0, 0, 0);
+}
+
+.SLWRbox:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.01);
+	transition: all 0.5s;
 }
 
 .SLWRimg {
@@ -352,6 +425,13 @@
 	border-color: rgb(0, 0, 0);
 }
 
+.WR2box:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.01);
+	transition: all 0.5s;
+}
+
 .WR2img {
 	position: relative;
 	top: 2vw;
@@ -383,6 +463,13 @@
 	height: 9vh;
 	top: 85vh;
 	left: 5.75vw;
+}
+
+.helmet:hover {
+	background-color: rgb(18, 88, 64);
+	opacity: 75%;
+	transform: scale(1.2);
+	transition: all 0.5s;
 }
 
 

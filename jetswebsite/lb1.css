@@ -16,12 +16,14 @@
 .title {
 	position: absolute;
 	top: 1.75vw;
-	left: 7.75vw;
+	left: 32.5vw;
 	margin: auto;
 	color: rgb(255, 255, 255);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 6vw;
 	font-weight: 1500;
+	font-kerning: 100px;
+
 
 }
 
@@ -58,7 +60,6 @@
 	color: rgb(0, 0, 0);
 
 }
-
 .statchart {
 	position: absolute;
 	background-image: url(lb1statchart.png);
@@ -89,6 +90,7 @@
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15pt;
 	line-height: 3vw;
+
 	color: rgb(255, 255, 255);
 }
 
