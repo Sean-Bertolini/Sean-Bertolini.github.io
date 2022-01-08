@@ -1,0 +1,43 @@
+$(document).ready(function () {
+	$(".godfather").click(function(){
+		$(".godfather").toggleClass("active");
+		$(".godfatherabout").toggleClass("click");
+	});
+	$(".tyson").click(function(){
+		$(".tyson").toggleClass("active2");
+		$(".tysonabout").toggleClass("click2");
+	});
+	$(".self-portrait").click(function(){
+		$(".self-portrait").toggleClass("active3");
+		$(".self-portrait-about").toggleClass("click3");
+	});
+	$(".roman").click(function(){
+		$(".roman").toggleClass("active4");
+		$(".romanabout").toggleClass("click4");
+	});
+	$(".boots").click(function(){
+		$(".boots").toggleClass("active5");
+		$(".bootsabout").toggleClass("click5");
+	});
+	$(".eye").click(function(){
+		$(".eye").toggleClass("active6");
+		$(".eyeabout").toggleClass("click6");
+	});
+	$(".engine").click(function(){
+		$(".engine").toggleClass("active7");
+		$(".engineabout").toggleClass("click7");
+	});
+	$(".fruits").click(function(){
+		$(".fruits").toggleClass("active8");
+		$(".fruitsabout").toggleClass("click8");
+	});
+	$(".bubbles").click(function(){
+		$(".bubbles").toggleClass("active9");
+		$(".bubblesabout").toggleClass("click9");
+	});
+	$(".flowers").click(function(){
+		$(".flowers").toggleClass("active10");
+		$(".flowersabout").toggleClass("click10");
+	});
+
+});
