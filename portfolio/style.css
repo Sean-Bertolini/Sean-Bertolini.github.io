@@ -106,7 +106,7 @@
 
 .godfather {
 	position: absolute;
-	top: 400px;
+	top: 420px;
 	left: 34.75vw;
 	width: 450px;
 	height: 450px;
@@ -124,7 +124,7 @@
 
 .godfatherabout {
 	position: absolute;
-	top: 360px;
+	top: 415px;
 	left: 55vw;
 	width: 400px;
 	height: 400px;
@@ -229,8 +229,8 @@
 .aboutme {
 	position: absolute;
 	left: 27vw;
-	top: 115px;
-	height: 250px;
+	top: 111.5px;
+	height: 300px;
 	width: 700px;
 	background-image: url(aboutme.png);
 	background-position: center;
@@ -522,19 +522,6 @@
 	background-color: rgb(65, 64, 66);
 }
 
-.active8 {
-	transform: translateX(-23.5vw);
-	transition: all 0.5s;
-}
-
-.click8 {
-	background-image: url(fruitsabout.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	transition: all 0.5s;
-}
-
 .active9 {
 	transform: translateX(-24.8vw);
 	transition: all 0.5s;
@@ -585,4 +572,559 @@
 	background-repeat: no-repeat;
 	background-size: contain;
 	transition: all 0.5s;
+}
+
+@media (max-width: 400px) {
+
+.background  {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 3475px;
+	width: 100vw;
+	background-color: rgb(0, 0, 0);
+	background-position: center;
+}
+
+
+.name {
+	position: fixed;
+	top: 15px;
+	left: 10px;
+	width: 365px;
+	height: 80px;
+	background-image: url(name.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.insta {
+	position: fixed;
+	top: 45px;
+	left:12px;
+	width: 215px;
+	height: 40px;
+	background-image: url(insahandle.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.instalink {
+	position: relative;
+	top: -10px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 150px;
+	opacity: 0;
+}
+
+.behance {
+	position: fixed;
+	top: 55px;
+	left: 209px;
+	width: 150px;
+	height: 22.5px;
+	background-image: url(behance.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+.behancelink {
+	position: relative;
+	top: -20px;
+	right: 0px;
+	left: 0px;
+	bottom: 50px;
+	opacity: 0;
+}
+
+.aboutme {
+	position: absolute;
+	left: 5vw;
+	top: 52.5px;
+	height: 250px;
+	width: 337.5px;
+	background-image: url(aboutme.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.godfather {
+	position: absolute;
+	top: 260px;
+	left: 3vw;
+	width: 350px;
+	height: 350px;
+	background-image: url(godfather.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.godfather:hover{
+	scale: 1.05;
+	opacity: 90%;
+	transition: .25s;
+}
+
+.godfatherabout {
+	position: absolute;
+	top: 447.5px;
+	left: 29vw;
+	width: 190px;
+	height: 190px;
+}
+
+.active {
+	transform: scaleY(.75) scaleX(.75) translateY(-50px);
+	transition: all 0.5s;
+}
+
+.click {
+	background-image: url(godfatherabout.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 100%;
+	transition: all 0.5s;
+}
+
+.line2 {
+	position: absolute;
+	top: 590px;
+	left: 11.5vw;
+	width: 75vw;
+	height: 2px;
+	background-color: rgb(65, 64, 66);
+}
+
+.tyson {
+	position: absolute;
+	top: 600px;
+	left: 6.5vw;
+	width: 325px;
+	height: 350px;
+	background-image: url(tyson.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.tyson:hover{
+	scale: 1.05;
+	opacity: 90%;
+	transition: .25s;
+}
+
+.tysonabout {
+	position: absolute;
+	top: 850px;
+	left: 29vw;
+	width: 190px;
+	height: 180px;
+}
+
+.active2 {
+	transform: scaleY(.75) scaleX(.75) translateY(-50px);
+	transition: all 0.5s;
+}
+
+.click2 {
+	background-image: url(tysonabout.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: all 0.5s;
+}
+
+.line3 {
+	position: absolute;
+	top: 975px;
+	left: 10.75vw;
+	width: 77.5vw;
+	height: 2px;
+	background-color: rgb(65, 64, 66);
+}
+
+.self-portrait {
+	position: absolute;
+	top: 1012.5px;
+	left: 9.65vw;
+	width: 300px;
+	height: 210px;
+	background-image: url(self-portrait.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.self-portrait:hover{
+	scale: 1.05;
+	opacity: 90%;
+	transition: .25s;
+}
+
+.self-portrait-about {
+	position: absolute;
+	top: 1127.5px;
+	left: 25vw;
+	width: 190px;
+	height: 180px;
+}
+
+.active3 {
+	transform: scaleY(.75) scaleX(.75) translateY(-50px);
+	transition: all 0.5s;
+}
+
+.click3 {
+	background-image: url(selfportraitabout.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: all 0.5s;
+}
+
+.line4 {
+	position: absolute;
+	top: 1265px;
+	left: 10.75vw;
+	width: 77.5vw;
+	height: 2px;
+	background-color: rgb(65, 64, 66);
+}
+
+.roman {
+	position: absolute;
+	top: 1300px;
+	left: 6vw;
+	width: 325px;
+	height: 350px;
+	background-image: url(roman.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.roman:hover{
+	scale: 1.05;
+	opacity: 90%;
+	transition: .25s;
+}
+
+.romanabout {
+	position: absolute;
+	top: 1487.5px;
+	left: 15.75vw;
+	width: 270px;
+	height: 270px;
+}
+
+.active4 {
+	transform: scaleY(.75) scaleX(.75) translateY(-60px);
+	transition: all 0.5s;
+}
+
+.click4 {
+	background-image: url(romanabout.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: all 0.5s;
+}
+
+.line5 {
+	position: absolute;
+	top: 1690px;
+	left: 10.75vw;
+	width: 77.5vw;
+	height: 2px;
+	background-color: rgb(65, 64, 66);
+}
+
+.boots {
+	position: absolute;
+	top: 1720px;
+	left: 9.75vw;
+	width: 305px;
+	height: 210px;
+	background-image: url(boots.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.boots:hover{
+	scale: 1.05;
+	opacity: 90%;
+	transition: .25s;
+}
+
+.bootsabout {
+	position: absolute;
+	top: 1815px;
+	left: 25vw;
+	width: 190px;
+	height: 190px;
+}
+
+.active5 {
+	transform: scaleY(.75) scaleX(.75) translateY(-60px);
+	transition: all 0.5s;
+}
+
+.click5 {
+	background-image: url(bootsabout.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: all 0.5s;
+}
+
+.line6 {
+	position: absolute;
+	top: 1967.5px;
+	left: 15vw;
+	width: 71vw;
+	height: 2px;
+	background-color: rgb(65, 64, 66);
+}
+
+.eye {
+	position: absolute;
+	top: 2000px;
+	left: 15vw;
+	width: 260px;
+	height: 260px;
+	background-image: url(eye.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.eye:hover{
+	scale: 1.05;
+	opacity: 90%;
+	transition: .25s;
+}
+
+.eyeabout {
+	position: absolute;
+	top: 2142px;
+	left: 25vw;
+	width: 190px;
+	height: 190px;
+}
+
+.active6 {
+	transform: scaleY(.75) scaleX(.75) translateY(-60px);
+	transition: all 0.5s;
+}
+
+.click6 {
+	background-image: url(eyeabout.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: all 0.5s;
+}
+
+.line7 {
+	position: absolute;
+	top: 2290px;
+	left: 15vw;
+	width: 71vw;
+	height: 2px;
+	background-color: rgb(65, 64, 66);
+}
+
+.engine {
+	position: absolute;
+	top: 2327px;
+	left: 9.65vw;
+	width: 307.5px;
+	height: 212px;
+	background-image: url(engine.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.engine:hover{
+	scale: 1.05;
+	opacity: 90%;
+	transition: .25s;
+}
+
+.engineabout {
+	position: absolute;
+	top: 2432.5px;
+	left: 25vw;
+	width: 190px;
+	height: 190px;
+}
+
+.active7 {
+	transform: scaleY(.75) scaleX(.75) translateY(-60px);
+	transition: all 0.5s;
+}
+
+.click7 {
+	background-image: url(engineabout.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: all 0.5s;
+}
+
+.line8 {
+	position: absolute;
+	top: 2580px;
+	left: 15vw;
+	width: 71vw;
+	height: 2px;
+	background-color: rgb(65, 64, 66);
+}
+
+.fruits {
+	position: absolute;
+	top: 2619px;
+	left: 9.65vw;
+	width: 307.5px;
+	height: 212px;
+	background-image: url(fruit.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fruits:hover{
+	scale: 1.05;
+	opacity: 90%;
+	transition: .25s;
+}
+
+.fruitsabout {
+	position: absolute;
+	top: 2712.5px;
+	left: 23.75vw;
+	width: 210px;
+	height: 210px;
+}
+
+.active8 {
+	transform: scaleY(.75) scaleX(.75) translateY(-60px);
+	transition: all 0.5s;
+}
+
+.click8 {
+	background-image: url(fruitsabout.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: all 0.5s;
+}
+
+.line9 {
+	position: absolute;
+	top: 2875px;
+	left: 15vw;
+	width: 71vw;
+	height: 2px;
+	background-color: rgb(65, 64, 66);
+}
+
+.bubbles {
+	position: absolute;
+	top: 2902.25px;
+	left: 8.85vw;
+	width: 312.5px;
+	height: 150px;
+	background-image: url(bubbles.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.bubbles:hover{
+	scale: 1.05;
+	opacity: 90%;
+	transition: .25s;
+}
+
+.bubblesabout {
+	position: absolute;
+	top: 2932.5px;
+	left: 23.5vw;
+	width: 210px;
+	height: 210px;
+}
+
+.active9 {
+	transform: scaleY(.75) scaleX(.75) translateY(-60px);
+	transition: all 0.5s;
+}
+
+.click9 {
+	background-image: url(bubblesabout.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: all 0.5s;
+}
+
+.line10 {
+	position: absolute;
+	top: 3082.5px;
+	left: 15vw;
+	width: 71vw;
+	height: 2px;
+	background-color: rgb(65, 64, 66);
+}
+
+.flowers {
+	position: absolute;
+	top: 3100px;
+	left: 10vw;
+	width: 300px;
+	height: 310px;
+	background-image: url(flowers.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.flowers:hover{
+	scale: 1.05;
+	opacity: 90%;
+	transition: .25s;
+}
+
+.flowersabout {
+	position: absolute;
+	top: 3250px;
+	left: 25vw;
+	width: 225px;
+	height: 225px;
+}
+
+.active10 {
+	transform: scaleY(.75) scaleX(.75) translateY(-60px);
+	transition: all 0.5s;
+}
+
+.click10 {
+	background-image: url(flowersabout.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: all 0.5s;
+}
+
 }
