@@ -1,0 +1,75 @@
+.ball {
+	position: absolute;
+	top: 400px;
+	left: 500px;
+	width: 30px;
+	height: 30px;
+	background-color: rgb(222, 20, 40);
+	animation-name: myAnim;
+	animation-duration: 2.3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes myAnim {
+	0% {
+		left:  300px;
+		top: 200px;
+	}
+	50%{
+		left: 1200px;
+		top: 600px;
+	}
+	100% {
+		left: 300px;
+		top: 200px;
+	}
+}
+
+.paddle1 {
+	position: absolute;
+	top: 150px;
+	left: 300px;
+	width: 15px;
+	height: 50px;
+	background-color: rgb(0, 0, 0);
+	animation-name: paddle1;
+	animation-duration: 1.15s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes paddle1 {
+	0% {
+		top: 175px;
+	}
+	50% {
+		top: 600px;
+	}
+	100% {
+		top: 175px;
+	}
+}
+
+.paddle2 {
+	position: absolute;
+	top: 600px;
+	left: 1220px;
+	width: 15px;
+	height: 50px;
+	background-color: rgb(0, 0, 0);
+	animation-name: paddle2;
+	animation-duration: 1.15s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes paddle2 {
+	0% {
+		top: 600px;
+	}
+	50% {
+		top: 175px;
+	}
+	100% {
+		top: 600px;
+	}
+}
