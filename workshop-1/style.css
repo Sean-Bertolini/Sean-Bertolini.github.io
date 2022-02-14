@@ -1,0 +1,561 @@
+.top-line {
+	position: absolute;
+	top: 100px;
+	left: 294px;
+	width: 572.5px;
+	height: 7.5px;
+	background-color: rgb(0, 0, 0);
+	animation-name: myAnim20;
+	animation-duration: 60s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+@keyframes myAnim20 {
+	0% {
+		background-color: rgb(0, 0, 0);
+	}
+	50.25% {
+		background-color: rgb(0, 0, 0);
+		height: 7.5px;
+	}
+	51% {
+		background-color: rgba(225, 40, 20, .75);
+		height: 450px;
+	}	
+	100% {
+		background-color: rgba(225, 40, 20, .75);
+		height: 450px;
+	}
+}
+
+.bottom-line-left {
+	position: absolute;
+	top: 500px;
+	left: 300px;
+	width: 75px;
+	height: 7.5px;
+	background-color: rgb(0, 0, 0);
+}
+
+.bottom-line-middle {
+	position: absolute;
+	top: 500px;
+	left: 425px;
+	width: 300px;
+	height: 7.5px;
+	background-color: rgb(0, 0, 0);
+}
+
+.bottom-line-right {
+	position: absolute;
+	top: 500px;
+	left: 775px;
+	width: 75px;
+	height: 7.5px;
+	background-color: rgb(0, 0, 0);
+}
+
+.left-brick-1 {
+	position: absolute;
+	top: 200px;
+	width: 75px;
+	height: 10px;
+	left: 370px;
+	animation-name: myAnim3;
+	animation-duration: 30s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+.left-brick-2 {
+	position: absolute;
+	top: 300px;
+	width: 75px;
+	height: 10px;
+	left: 370px;
+	animation-name: myAnim2;
+	animation-duration: 30s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+.left-brick-3 {
+	position: absolute;
+	top: 400px;
+	width: 75px;
+	height: 10px;
+	left: 370px;
+	animation-name: myAnim ;
+	animation-duration: 30s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+@keyframes myAnim {
+	0% {
+		background-color: rgb(0, 0, 0);
+	}
+	10.11% {
+		background-color: rgb(0, 0, 0);
+	}
+	11.11%{
+		background-color: rgb(220, 220, 20);	
+	}
+	21.22%{
+		background-color: rgb(220, 220, 20);	
+	}
+	22.22% {
+		background-color: rgb(220, 40, 20);
+	}
+	32.33% {
+		background-color: rgb(220, 40, 20);
+	}
+	33.33% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+}
+
+@keyframes myAnim2 {
+		0% {
+		background-color: rgb(0, 0, 0);
+	}
+	43.44% {
+		background-color: rgb(0, 0, 0);
+	}
+	44.44%{
+		background-color: rgb(220, 220, 20);	
+	}
+	54.55%{
+		background-color: rgb(220, 220, 20);	
+	}
+	55.55% {
+		background-color: rgb(220, 40, 20);
+	}
+	65.66% {
+		background-color: rgb(220, 40, 20);
+	}
+	66.66% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+}
+
+@keyframes myAnim3 {
+	0% {
+		background-color: rgb(0, 0, 0);
+	}
+	76.77% {
+		background-color: rgb(0, 0, 0);
+	}
+	77.77%{
+		background-color: rgb(220, 220, 20);	
+	}
+	87.88%{
+		background-color: rgb(220, 220, 20);	
+	}
+	88.88% {
+		background-color: rgb(220, 40, 20);
+	}
+	98.99% {
+		background-color: rgb(220, 40, 20);
+	}
+	99.99% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+}
+
+.right-brick-1 {
+	position: absolute;
+	top: 200px;
+	width: 75px;
+	height: 10px;
+	left: 720px;
+	animation-name: myAnim8;
+	animation-duration: 30s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+.right-brick-2 {
+	position: absolute;
+	top: 250px;
+	width: 75px;
+	height: 10px;
+	left: 720px;
+	animation-name: myAnim7;
+	animation-duration: 30s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+.right-brick-3 {
+	position: absolute;
+	top: 300px;
+	width: 75px;
+	height: 10px;
+	left: 720px;
+	animation-name: myAnim6;
+	animation-duration: 30s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+.right-brick-4 {
+	position: absolute;
+	top: 350px;
+	width: 75px;
+	height: 10px;
+	left: 720px;
+	animation-name: myAnim5;
+	animation-duration: 30s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+.right-brick-5 {
+	position: absolute;
+	top: 400px;
+	width: 75px;
+	height: 10px;
+	left: 720px;
+	animation-name: myAnim4;
+	animation-duration: 30s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-out;
+}
+
+@keyframes myAnim4 {
+	0% {
+		background-color: rgb(0, 0, 0);
+	}
+	5.66% {
+		background-color: rgb(0, 0, 0);
+	}
+	6.66%{
+		background-color: rgb(220, 220, 20);	
+	}
+	12.32%{
+		background-color: rgb(220, 220, 20);	
+	}
+	13.32% {
+		background-color: rgb(220, 40, 20);
+	}
+	18.98% {
+		background-color: rgb(220, 40, 20);
+	}
+	19.98% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+}
+
+@keyframes myAnim5 {
+	0% {
+		background-color: rgb(0, 0, 0);
+	}
+	25.64% {
+		background-color: rgb(0, 0, 0);
+	}
+	26.64%{
+		background-color: rgb(220, 220, 20);	
+	}
+	32.3%{
+		background-color: rgb(220, 220, 20);	
+	}
+	33.3% {
+		background-color: rgb(220, 40, 20);
+	}
+	38.96% {
+		background-color: rgb(220, 40, 20);
+	}
+	39.96% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+}
+
+@keyframes myAnim6 {
+	0% {
+		background-color: rgb(0, 0, 0);
+	}
+	45.62% {
+		background-color: rgb(0, 0, 0);
+	}
+	46.62%{
+		background-color: rgb(220, 220, 20);	
+	}
+	52.28%{
+		background-color: rgb(220, 220, 20);	
+	}
+	53.28% {
+		background-color: rgb(220, 40, 20);
+	}
+	58.94% {
+		background-color: rgb(220, 40, 20);
+	}
+	59.94% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+}
+
+@keyframes myAnim7 {
+	0% {
+		background-color: rgb(0, 0, 0);
+	}
+	65.6% {
+		background-color: rgb(0, 0, 0);
+	}
+	66.6%{
+		background-color: rgb(220, 220, 20);	
+	}
+	72.26%{
+		background-color: rgb(220, 220, 20);	
+	}
+	73.26% {
+		background-color: rgb(220, 40, 20);
+	}
+	78.92% {
+		background-color: rgb(220, 40, 20);
+	}
+	79.92% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+}
+
+@keyframes myAnim8 {
+	0% {
+		background-color: rgb(0, 0, 0);
+	}
+	85.58% {
+		background-color: rgb(0, 0, 0);
+	}
+	86.58%{
+		background-color: rgb(220, 220, 20);	
+	}
+	92.24%{
+		background-color: rgb(220, 220, 20);	
+	}
+	93.24% {
+		background-color: rgb(220, 40, 20);
+	}
+	98.92% {
+		background-color: rgb(220, 40, 20);
+	}
+	99.92% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+	100% {
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+}
+
+.left-ball {
+	position: absolute;
+	top: 490px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	left: 390px;
+	background-color: rgb(0, 0, 0);
+	animation-name: myAnim10;
+	animation-duration: 30s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+.right-ball {
+	position: absolute;
+	top: 490px;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	left: 738px;
+	background-color: rgb(0, 0, 0);
+	animation-name: myAnim11;
+	animation-duration: 30s;
+	animation-iteration-count: 1;
+	animation-timing-function: linear;
+}
+
+@keyframes myAnim10 {
+	0% {
+		top: 490px;
+	}
+	5% {
+		top: 490px;
+	}
+	11%{
+		top: 400px;	
+	}
+	15%{
+		top: 490px;	
+	}
+	22% {
+		top: 400px;
+	}
+	27% {
+		top: 490px;
+	}
+	33% {
+		top: 400px;
+	}
+	38% {
+		top: 490px;
+	}
+	44% {
+		top: 300px;
+	}
+	50% {
+		top: 490px;
+	}
+	55% {
+		top: 300px;
+	}
+	60.5% {
+		top: 490px;
+	}
+	67% {
+		top: 300px;
+	}
+	72% {
+		top: 490px;
+	}
+	77% {
+		top: 200px;
+	}
+	83% {
+		top: 490px;
+	}
+	88% {
+		top: 200px;
+	}
+	94% {
+		top: 490px;
+	}
+	97% {
+		top: 200px;
+	}
+	100% {
+		top: 490px;
+		color: rgba(0, 0, 0, 0.0);
+	}
+}
+
+@keyframes myAnim11 {
+	0% {
+		top: 490px;
+	}
+	3% {
+		top: 490px;
+	}
+	6.66%{
+		top: 400px;	
+	}
+	10%{
+		top: 490px;	
+	}
+	13% {
+		top: 400px;
+	}
+	16% {
+		top: 490px;
+	}
+	19.5% {
+		top: 400px;
+	}
+	23% {
+		top: 490px;
+	}
+	26% {
+		top: 350px;
+	}
+	30% {
+		top: 490px;
+	}
+	33.3% {
+		top: 350px;
+	}
+	36% {
+		top: 490px;
+	}
+	39.5% {
+		top: 350px;
+	}
+	43% {
+		top: 490px;
+	}
+	46% {
+		top: 300px;
+	}
+	59% {
+		top: 490px;
+	}
+	53% {
+		top: 300px;
+	}
+	56% {
+		top: 490px;
+	}
+	59.5% {
+		top: 300px;
+	}
+	63% {
+		top: 490px;
+	}
+	66.6% {
+		top: 250px;
+	}
+	70% {
+		top: 490px;
+	}
+	73% {
+		top: 250px;
+	}
+	76% {
+		top: 490px;
+	}
+	79.5% {
+		top: 250px;
+	}
+	83% {
+		top: 490px;
+	}
+	86% {
+		top: 200px;
+	}
+	89% {
+		top: 490px;
+	}
+	93% {
+		top: 200px;
+	}
+	96% {
+		top: 490px;
+	}
+	98% {
+		top: 200px;
+	}
+	100% {
+		top: 490px;
+		color: rgba(0, 0, 0, 0.0);
+	}
+}
