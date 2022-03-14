@@ -118,15 +118,26 @@ body {
   background-image: url("./img/npc-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
-  animation-duration: 500ms;
+  animation-duration: 750ms;
   animation-timing-function: steps(3); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
   pointer-events: none;
 }
 
 .npc.was-interacted {
-  opacity: 0;
-  transition: opacity 400ms linear;
+  position: absolute;
+  right: -500px !important;
+  width: 250px;
+  bottom: 275px;
+  height: 250px;
+  transition: right 2000ms linear;
+  background-image: url("./img/npc-sprite-leaving.png");
+  background-size: cover;
+  animation-name: spriteSheet;
+  animation-duration: 750ms;
+  animation-timing-function: steps(3); /* number of frames in sprite (not counting the final blank space) */
+  animation-iteration-count: infinite;  
+  pointer-events: none;
 }
 
 .preload-image {
@@ -135,6 +146,25 @@ body {
   top: -99999px;
   opacity: 0;
   pointer-events: none;
+}
+
+.collectable {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.collectable-0 {
+  background-color: rgb(220, 220, 30);
+  left: 200px;
+  bottom: 200px;
+}
+
+.collectable-1 {
+  background-color: rgb(220, 220, 30);
+  right: 200px;
+  bottom: 200px;
 }
 
 @keyframes spriteSheet {
