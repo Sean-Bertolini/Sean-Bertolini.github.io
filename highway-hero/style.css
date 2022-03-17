@@ -99,15 +99,17 @@ body {
 .hero.jumping {
   background-image: url("./img/jumping-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 1000ms;
+  animation-duration: 700ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
+  animation-iteration-count: 1;
+  transition-timing-function: linear, ease-in-out;
 }
 
 .hero.doing-action {
   background-image: url("./img/action-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 600ms;  /* set to same number in initialize() as well or it will look weird */
-  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
+  animation-timing-function: steps(3); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .npc {
@@ -152,19 +154,20 @@ body {
   width: 100px;
   height: 100px;
   position: absolute;
-  border-radius: 50%;
 }
 
 .collectable-0 {
-  background-color: rgb(220, 220, 30);
+  background-image: url("./img/collectable.png");
+  background-size: cover;
   left: 200px;
-  bottom: 200px;
+  bottom: 325px;
 }
 
 .collectable-1 {
-  background-color: rgb(220, 220, 30);
+  background-image: url("./img/collectable.png");
+  background-size: cover;
   right: 200px;
-  bottom: 200px;
+  bottom: 325px;
 }
 
 @keyframes spriteSheet {
