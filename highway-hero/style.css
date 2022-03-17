@@ -108,8 +108,9 @@ body {
 .hero.doing-action {
   background-image: url("./img/action-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 2000ms;  /* set to same number in initialize() as well or it will look weird */
+  animation-duration: 1250ms;  /* set to same number in initialize() as well or it will look weird */
   animation-timing-function: steps(14); /* number of frames in sprite (not counting the final blank space) */
+  animation-iteration-count: 1;
 }
 
 .npc {
