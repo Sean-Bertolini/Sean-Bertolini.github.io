@@ -41,18 +41,17 @@ body {
 
 .score {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 40px;
+  top: 15px;
+  right: 15px;
+  width: 60px;
   height: 40px;
-  line-height: 40px;
-  border-radius: 50%;
-  background-color: rgb(243, 128, 25);
-  color: white;
+  background-image: url("./img/score.png");
+  background-size: cover;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 22px;
   text-align: center;
+  color: white;
 }
 
 .background {
@@ -109,7 +108,7 @@ body {
   background-image: url("./img/action-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 1250ms;  /* set to same number in initialize() as well or it will look weird */
-  animation-timing-function: steps(14); /* number of frames in sprite (not counting the final blank space) */
+  animation-timing-function: steps(13); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: 1;
 }
 
