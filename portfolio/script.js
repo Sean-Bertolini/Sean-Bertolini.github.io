@@ -1,43 +1,19 @@
 $(document).ready(function () {
-	$(".godfather").click(function(){
-		$(".godfather").toggleClass("active");
-		$(".godfatherabout").toggleClass("click");
-	});
-	$(".tyson").click(function(){
-		$(".tyson").toggleClass("active2");
-		$(".tysonabout").toggleClass("click2");
-	});
-	$(".self-portrait").click(function(){
-		$(".self-portrait").toggleClass("active3");
-		$(".self-portrait-about").toggleClass("click3");
-	});
-	$(".roman").click(function(){
-		$(".roman").toggleClass("active4");
-		$(".romanabout").toggleClass("click4");
-	});
-	$(".boots").click(function(){
-		$(".boots").toggleClass("active5");
-		$(".bootsabout").toggleClass("click5");
-	});
-	$(".eye").click(function(){
-		$(".eye").toggleClass("active6");
-		$(".eyeabout").toggleClass("click6");
-	});
-	$(".engine").click(function(){
-		$(".engine").toggleClass("active7");
-		$(".engineabout").toggleClass("click7");
-	});
-	$(".fruits").click(function(){
-		$(".fruits").toggleClass("active8");
-		$(".fruitsabout").toggleClass("click8");
-	});
-	$(".bubbles").click(function(){
-		$(".bubbles").toggleClass("active9");
-		$(".bubblesabout").toggleClass("click9");
-	});
-	$(".flowers").click(function(){
-		$(".flowers").toggleClass("active10");
-		$(".flowersabout").toggleClass("click10");
-	});
+    function toggleClassOnClick(element, activeClass, clickClass) {
+        element.click(function () {
+            element.toggleClass(activeClass);
+            element.siblings(clickClass).toggleClass(clickClass.substring(1));
+        });
+    }
 
+    toggleClassOnClick($(".godfather"), "active", ".click");
+    toggleClassOnClick($(".tyson"), "active2", ".click2");
+    toggleClassOnClick($(".self-portrait"), "active3", ".click3");
+    toggleClassOnClick($(".roman"), "active4", ".click4");
+    toggleClassOnClick($(".boots"), "active5", ".click5");
+    toggleClassOnClick($(".eye"), "active6", ".click6");
+    toggleClassOnClick($(".engine"), "active7", ".click7");
+    toggleClassOnClick($(".fruits"), "active8", ".click8");
+    toggleClassOnClick($(".bubbles"), "active9", ".click9");
+    toggleClassOnClick($(".flowers"), "active10", ".click10");
 });
