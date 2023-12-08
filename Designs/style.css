@@ -1,280 +1,375 @@
 .landing-page-look {
-    align-items: flex-start;
-    background-color: #ffffff;
     display: inline-flex;
     flex-direction: column;
+    align-items: flex-start;
     position: relative;
+    background-color: #ffffff;
 }
 
 .landing-page-look .top-header {
-    align-items: flex-start;
     display: flex;
-    flex: 0 0 auto;
-    position: relative;
     width: 1439px;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
 }
 
 .landing-page-look .navbar {
-    align-items: flex-end;
-    align-self: stretch;
-    background-color: #ffffff;
-    box-shadow: 0px 2px 0px #0000001a;
     display: flex;
-    flex: 1;
-    flex-grow: 1;
+    align-items: flex-end;
     gap: 10px;
     padding: 15px 50px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px #0000001a;
+}
+
+.landing-page-look .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.landing-page-look .name-logo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 10px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px #0000001a;
+}
+
+.landing-page-look .div {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.landing-page-look .social-contact-links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 15px 50px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px #0000001a;
+}
+
+.landing-page-look .rectangle {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: #d9d9d9;
+}
+
+.landing-page-look .about-section {
+    display: flex;
+    width: 1439px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.landing-page-look .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 345px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.landing-page-look .MAKERS-TEXT-CONTENT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.landing-page-look .learn-how-to-make {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.landing-page-look .makers-is-a-figma {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #0a2942;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.landing-page-look .work {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 806px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 0px 64px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.landing-page-look .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 50px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.landing-page-look .pages-covers {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-2 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-7.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-3 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-8.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-4 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-6.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-5 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-6 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-5.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-7 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-8 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-9 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .MAKERS-FOOTER {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.landing-page-look .layout-simple {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -40px;
+    background-color: #ffffff;
+}
+
+.landing-page-look .container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 204px;
+    align-items: center;
+    gap: 24px;
+    padding: 32px 0px;
+    position: relative;
+}
+
+.landing-page-look .navigation-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    align-items: flex-start;
+    position: relative;
+}
+
+.landing-page-look .navigation-item {
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-bottom: -18px;
+    align-items: flex-start;
     position: relative;
 }
 
 .landing-page-look .text-wrapper-2 {
-    color: #000000;
-    font-family: "Inter-SemiBold", Helvetica;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #678398;
     font-size: 16px;
-    font-weight: 600;
     letter-spacing: 0;
     line-height: normal;
-    position: relative;
     white-space: nowrap;
-    width: fit-content;
 }
 
-.landing-page-look .name-logo {
-    align-items: flex-end;
-    align-self: stretch;
-    background-color: #ffffff;
-    box-shadow: 0px 2px 0px #0000001a;
+.landing-page-look .social-media {
     display: flex;
-    flex: 1;
-    flex-grow: 1;
-    gap: 10px;
+    align-items: center;
     justify-content: center;
-    padding: 15px 10px;
+    gap: 24px;
+    padding: 16px 0px;
     position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
 }
 
-.landing-page-look .text-wrapper-3 {
-    color: #000000;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-size: 24px;
-    font-weight: 600;
+.landing-page-look .MAKERS-SOCIAL-MEDIA {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.landing-page-look .copyright {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 17px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: -22px;
+}
+
+.landing-page-look .element-portfolio {
+    position: relative;
+    width: 495px;
+    height: 57px;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #678398;
+    font-size: 14px;
+    text-align: center;
     letter-spacing: 0;
     line-height: normal;
-    position: relative;
-    text-align: center;
-    width: fit-content;
-}
-
-.landing-page-look .social-contact-links {
-    align-items: flex-end;
-    align-self: stretch;
-    background-color: #ffffff;
-    box-shadow: 0px 2px 0px #0000001a;
-    display: flex;
-    flex: 1;
-    flex-grow: 1;
-    gap: 10px;
-    justify-content: flex-end;
-    padding: 15px 50px;
-    position: relative;
-}
-
-.landing-page-look .rectangle {
-    background-color: #d9d9d9;
-    height: 35px;
-    position: relative;
-    width: 35px;
-}
-
-.landing-page-look .about-section {
-    align-items: flex-start;
-    display: flex;
-    flex: 0 0 auto;
-    gap: 24px;
-    justify-content: center;
-    padding: 48px 0px;
-    position: relative;
-    width: 1439px;
-}
-
-.landing-page-look .text-container {
-    align-items: flex-start;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 10px;
-    padding: 0px 345px;
-    position: relative;
-}
-
-.landing-page-look .MAKERS-TEXT-CONTENT-instance {
-    align-self: stretch !important;
-    flex: 0 0 auto !important;
-    width: 100% !important;
-}
-
-.landing-page-look .design-component-instance-node {
-    margin-top: -1px !important;
-}
-
-.landing-page-look .work {
-    align-items: center;
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    height: 806px;
-    justify-content: center;
-    padding: 0px 0px 64px;
-    position: relative;
-    width: 1440px;
-}
-
-.landing-page-look .row {
-    align-items: center;
-    align-self: stretch;
-    display: flex;
-    flex: 1;
-    flex-grow: 1;
-    gap: 10px;
-    justify-content: center;
-    padding: 0px 50px;
-    position: relative;
-    width: 100%;
-}
-
-.landing-page-look .pages-covers-instance {
-    align-self: stretch !important;
-    background-color: unset !important;
-    background-image: url(./pages-covers.png) !important;
-    background-position: 50% 50% !important;
-    background-size: cover !important;
-    flex: 1 !important;
-    flex-grow: 1 !important;
-    height: unset !important;
-    position: relative !important;
-    width: unset !important;
-}
-
-.landing-page-look .pages-covers-2 {
-    align-self: stretch !important;
-    background-color: unset !important;
-    background-image: url(./image.png) !important;
-    background-position: 50% 50% !important;
-    background-size: cover !important;
-    flex: 1 !important;
-    flex-grow: 1 !important;
-    height: unset !important;
-    position: relative !important;
-    width: unset !important;
-}
-
-.landing-page-look .pages-covers-3 {
-    align-self: stretch !important;
-    background-color: unset !important;
-    background-image: url(./pages-covers-2.png) !important;
-    background-position: 50% 50% !important;
-    background-size: cover !important;
-    flex: 1 !important;
-    flex-grow: 1 !important;
-    height: unset !important;
-    position: relative !important;
-    width: unset !important;
-}
-
-.landing-page-look .pages-covers-4 {
-    align-self: stretch !important;
-    background-color: unset !important;
-    background-image: url(./pages-covers-3.png) !important;
-    background-position: 50% 50% !important;
-    background-size: cover !important;
-    flex: 1 !important;
-    flex-grow: 1 !important;
-    height: unset !important;
-    position: relative !important;
-    width: unset !important;
-}
-
-.landing-page-look .pages-covers-5 {
-    align-self: stretch !important;
-    background-color: unset !important;
-    background-image: url(./pages-covers-4.png) !important;
-    background-position: 50% 50% !important;
-    background-size: cover !important;
-    flex: 1 !important;
-    flex-grow: 1 !important;
-    height: unset !important;
-    position: relative !important;
-    width: unset !important;
-}
-
-.landing-page-look .pages-covers-6 {
-    align-self: stretch !important;
-    background-color: unset !important;
-    background-image: url(./pages-covers-5.png) !important;
-    background-position: 50% 50% !important;
-    background-size: cover !important;
-    flex: 1 !important;
-    flex-grow: 1 !important;
-    height: unset !important;
-    position: relative !important;
-    width: unset !important;
-}
-
-.landing-page-look .pages-covers-7 {
-    align-self: stretch !important;
-    background-color: unset !important;
-    background-image: url(./pages-covers-6.png) !important;
-    background-position: 50% 50% !important;
-    background-size: cover !important;
-    flex: 1 !important;
-    flex-grow: 1 !important;
-    height: unset !important;
-    position: relative !important;
-    width: unset !important;
-}
-
-.landing-page-look .pages-covers-8 {
-    align-self: stretch !important;
-    background-color: unset !important;
-    background-image: url(./pages-covers-7.png) !important;
-    background-position: 50% 50% !important;
-    background-size: cover !important;
-    flex: 1 !important;
-    flex-grow: 1 !important;
-    height: unset !important;
-    position: relative !important;
-    width: unset !important;
-}
-
-.landing-page-look .pages-covers-9 {
-    align-self: stretch !important;
-    background-color: unset !important;
-    background-image: url(./pages-covers-8.png) !important;
-    background-position: 50% 50% !important;
-    background-size: cover !important;
-    flex: 1 !important;
-    flex-grow: 1 !important;
-    height: unset !important;
-    position: relative !important;
-    width: unset !important;
-}
-
-.landing-page-look .layout-simple-wrapper {
-    align-items: flex-start;
-    border-radius: 5px;
-    display: flex;
-    flex: 0 0 auto;
-    flex-direction: column;
-    gap: 10px;
-    overflow: hidden;
-    padding: 20px;
-    position: relative;
-    width: 1440px;
-}
-
-.landing-page-look .layout-simple {
-    flex: 0 0 auto !important;
-    margin-right: -40px !important;
 }
