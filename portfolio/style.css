@@ -1,149 +1,375 @@
-/* General Styles */
-.background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 5050px;
-  width: 99vw;
-  background-color: rgb(0, 0, 0);
-  background-position: center;
+.landing-page-look {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    background-color: #ffffff;
 }
 
-.line {
-  position: fixed;
-  top: 85px;
-  left: 1vw;
-  width: 97vw;
-  height: 2px;
-  background-color: rgb(147, 149, 152);
+.landing-page-look .top-header {
+    display: flex;
+    width: 1439px;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
 }
 
-.name,
-.insta,
-.behance,
-.aboutme,
-.godfather,
-.tyson,
-.self-portrait,
-.roman,
-.boots,
-.eye,
-.engine,
-.fruits,
-.bubbles,
-.flowers {
-  position: absolute;
+.landing-page-look .navbar {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    padding: 15px 50px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px #0000001a;
 }
 
-/* Navigation and Social Media Icons */
-.name,
-.insta,
-.behance {
-  width: 350px;
-  height: 80px;
-  background-repeat: no-repeat;
-  background-size: cover;
+.landing-page-look .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
 }
 
-.insta {
-  top: 15px;
-  right: -40px;
-  width: 350px;
-  height: 40px;
+.landing-page-look .name-logo {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px 10px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px #0000001a;
 }
 
-.behance {
-  top: 50px;
-  right: -59px;
-  width: 350px;
-  height: 22.5px;
+.landing-page-look .div {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
 }
 
-/* Hover Effects */
-.insta:hover,
-.behance:hover,
-.godfather:hover,
-.tyson:hover,
-.self-portrait:hover,
-.roman:hover,
-.boots:hover,
-.eye:hover,
-.engine:hover,
-.fruits:hover,
-.bubbles:hover,
-.flowers:hover {
-  transform: scale(1.05);
-  opacity: 90%;
-  transition: transform 0.25s, opacity 0.25s;
+.landing-page-look .social-contact-links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 15px 50px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 0px #0000001a;
 }
 
-/* Clickable Elements */
-.click,
-.click2,
-.click3,
-.click4,
-.click5,
-.click6,
-.click7,
-.click8,
-.click9,
-.click10 {
-  background-repeat: no-repeat;
-  background-size: contain;
-  transition: all 0.5s;
+.landing-page-look .rectangle {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: #d9d9d9;
 }
 
-/* Responsive Styles */
-@media (max-width: 600px) {
-  /* Background */
-  .background {
-    height: 3475px;
-    width: 100vw;
-  }
+.landing-page-look .about-section {
+    display: flex;
+    width: 1439px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    padding: 48px 0px;
+    position: relative;
+    flex: 0 0 auto;
+}
 
-  /* Navigation */
-  .name,
-  .insta,
-  .behance {
-    width: 365px;
-    height: 80px;
+.landing-page-look .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 345px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.landing-page-look .MAKERS-TEXT-CONTENT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.landing-page-look .learn-how-to-make {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.landing-page-look .makers-is-a-figma {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #0a2942;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.landing-page-look .work {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 806px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 0px 64px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.landing-page-look .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 50px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.landing-page-look .pages-covers {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-2.png);
     background-size: cover;
-  }
+    background-position: 50% 50%;
+}
 
-  .insta {
-    top: 45px;
-    left: 12px;
-    width: 215px;
-    height: 40px;
-  }
+.landing-page-look .pages-covers-2 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-7.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
 
-  .behance {
-    top: 55px;
-    left: 209px;
-    width: 150px;
-    height: 22.5px;
-  }
+.landing-page-look .pages-covers-3 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-8.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
 
-  /* About Me */
-  .aboutme {
-    top: 52.5px;
-    left: 5vw;
-    height: 250px;
-    width: 337.5px;
-    background-size: contain;
-  }
+.landing-page-look .pages-covers-4 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-6.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
 
-  /* Hover Effects */
-  .active,
-  .active2,
-  .active3,
-  .active4,
-  .active5,
-  .active6,
-  .active7,
-  .active8,
-  .active9,
-  .active10 {
-    transform: scaleY(0.75) scaleX(0.75) translateY(-50px);
-  }
+.landing-page-look .pages-covers-5 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-6 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-5.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-7 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-8 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .pages-covers-9 {
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-image: url(./img/pages-covers-4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.landing-page-look .MAKERS-FOOTER {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.landing-page-look .layout-simple {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -40px;
+    background-color: #ffffff;
+}
+
+.landing-page-look .container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 204px;
+    align-items: center;
+    gap: 24px;
+    padding: 32px 0px;
+    position: relative;
+}
+
+.landing-page-look .navigation-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+    align-items: flex-start;
+    position: relative;
+}
+
+.landing-page-look .navigation-item {
+    display: inline-flex;
+    flex: 0 0 auto;
+    margin-bottom: -18px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.landing-page-look .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #678398;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.landing-page-look .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 16px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.landing-page-look .MAKERS-SOCIAL-MEDIA {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.landing-page-look .copyright {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 17px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: -22px;
+}
+
+.landing-page-look .element-portfolio {
+    position: relative;
+    width: 495px;
+    height: 57px;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #678398;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
 }
